@@ -1,0 +1,23 @@
+{
+  "name": "centari code",
+  "version": "1.0.0",
+  "description": "",
+  "license": "GPL-3.0-or-later",
+  "author": "John Bernier",
+  "type": "commonjs",
+  "main": "main.ts",
+  "scripts": {
+    "test": "npm run build && jest",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "^24.0.15",
+    "jest": "^30.0.4",
+    "ts-jest": "^29.4.0",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.2"
+  }
+}

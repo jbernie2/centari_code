@@ -1,0 +1,8 @@
+# vim temp files
+*.swo
+*.swp
+
+node_modules
+dist
+tags
+
